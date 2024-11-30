@@ -16,4 +16,4 @@ G.add_edge('C', 'A', weight=3)
 M = nx.minimum_spanning_tree(G)
 
 # Imprime el árbol de expansión mínima
-print(M)
+print("El grafo es :",M)
